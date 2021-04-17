@@ -1,0 +1,23 @@
+{
+  "name": "dbaa",
+  "version": "1.0.0",
+  "description": "Discovery Bay Action Alliance",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztoth/dbaa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ztoth/dbaa/issues"
+  },
+  "homepage": "https://github.com/ztoth/dbaa#readme",
+  "dependencies": {
+    "express": "*"
+  }
+}
