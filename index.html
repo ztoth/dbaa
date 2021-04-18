@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="./public/style.css" />
     <script type="text/javascript" src="./public/page.js"></script>
+    <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
   </head>
 
   <body>
@@ -19,13 +20,20 @@
           id="menu-home"
           onClick="page.load(PATH.HOME)"
         >
-          home
         </a>
       </nav>
     </header>
 
     <main>
-      <section id="content"></section>
+      <section id="content">
+        <h4></h4>
+      </section>
+      <section id="gofundme-embed">
+        <div
+          class="gfm-embed"
+          data-url="https://www.gofundme.com/f/help-appeal-the-proposed-Discovery-Bay-Development/widget/large"
+        ></div>
+      </section>
     </main>
 
     <footer>
